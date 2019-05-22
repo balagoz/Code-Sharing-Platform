@@ -29,10 +29,6 @@ import com.rozdoum.socialcomponents.R;
 import com.rozdoum.socialcomponents.enums.ProfileStatus;
 import com.rozdoum.socialcomponents.managers.ProfileManager;
 
-/**
- * Created by Alexey on 03.05.18.
- */
-
 public class BasePresenter<T extends BaseView & MvpView> extends MvpBasePresenter<T> {
 
     protected String TAG = this.getClass().getSimpleName();

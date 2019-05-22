@@ -37,9 +37,6 @@ import com.rozdoum.socialcomponents.utils.PreferencesUtil;
 
 import java.util.List;
 
-/**
- * Created by Kristina on 10/31/16.
- */
 
 public class PostsAdapter extends BasePostsAdapter {
     public static final String TAG = PostsAdapter.class.getSimpleName();

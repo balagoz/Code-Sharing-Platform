@@ -5,9 +5,6 @@ import com.rozdoum.socialcomponents.model.Profile;
 
 import java.util.List;
 
-/**
- * Created by Alexey on 08.06.18.
- */
 public interface SearchUsersView extends BaseFragmentView {
     void onSearchResultsReady(List<Profile> profiles);
 

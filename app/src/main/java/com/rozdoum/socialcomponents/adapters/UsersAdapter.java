@@ -29,9 +29,6 @@ import com.rozdoum.socialcomponents.adapters.holders.UserViewHolder;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Alexey on 03.05.18.
- */
 
 public class UsersAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     public static final String TAG = UsersAdapter.class.getSimpleName();

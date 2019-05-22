@@ -30,9 +30,6 @@ import com.rozdoum.socialcomponents.model.Comment;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by alexey on 10.05.17.
- */
 
 public class CommentsAdapter extends RecyclerView.Adapter<CommentViewHolder> {
     private List<Comment> list = new ArrayList<>();

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Code Sharing Platform</string>
+    <string name="app_name">CodeShare</string>
     <string name="app_name2">Social Code\nSharing Platform</string>
     <string name="label_create_post_activity">Create post</string>
     <string name="label_post_detail_activity">Post detail</string>

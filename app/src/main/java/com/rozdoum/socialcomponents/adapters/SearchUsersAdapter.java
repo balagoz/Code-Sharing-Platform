@@ -31,9 +31,6 @@ import com.rozdoum.socialcomponents.model.Profile;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Alexey on 03.05.18.
- */
 
 public class SearchUsersAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     public static final String TAG = SearchUsersAdapter.class.getSimpleName();

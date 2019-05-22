@@ -33,9 +33,6 @@ import android.widget.EditText;
 
 import com.rozdoum.socialcomponents.R;
 
-/**
- * Created by alexey on 12.05.17.
- */
 
 public class EditCommentDialog extends DialogFragment {
     public static final String TAG = EditCommentDialog.class.getSimpleName();

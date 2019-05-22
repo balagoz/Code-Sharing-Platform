@@ -36,9 +36,6 @@ import com.rozdoum.socialcomponents.utils.GlideApp;
 import com.rozdoum.socialcomponents.utils.ImageUtil;
 import com.rozdoum.socialcomponents.views.FollowButton;
 
-/**
- * Created by Alexey on 03.05.18.
- */
 
 public class UserViewHolder extends RecyclerView.ViewHolder {
     public static final String TAG = UserViewHolder.class.getSimpleName();

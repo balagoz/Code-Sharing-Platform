@@ -6,11 +6,6 @@ import android.util.AttributeSet;
 
 import com.rozdoum.socialcomponents.R;
 
-/**
- * SwipeRefreshLayout compatible with pre Lolly pop android versions
- * (fixed hiding progress view on top of the screen)
- */
-
 public class SwipeRefreshPreLollyPop extends SwipeRefreshLayout {
 
     public SwipeRefreshPreLollyPop(Context context) {

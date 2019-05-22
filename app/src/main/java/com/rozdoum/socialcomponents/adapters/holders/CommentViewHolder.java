@@ -41,10 +41,6 @@ import com.rozdoum.socialcomponents.utils.GlideApp;
 import com.rozdoum.socialcomponents.utils.ImageUtil;
 import com.rozdoum.socialcomponents.views.ExpandableTextView;
 
-/**
- * Created by alexey on 10.05.17.
- */
-
 public class CommentViewHolder extends RecyclerView.ViewHolder {
 
     private final ImageView avatarImageView;

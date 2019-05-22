@@ -33,9 +33,6 @@ import com.rozdoum.socialcomponents.model.Profile;
 import com.rozdoum.socialcomponents.utils.GlideApp;
 import com.rozdoum.socialcomponents.utils.ImageUtil;
 
-/**
- * Created by Alexey on 11.05.18.
- */
 
 public class UnfollowConfirmationDialog extends DialogFragment {
     public static final String TAG = UnfollowConfirmationDialog.class.getSimpleName();

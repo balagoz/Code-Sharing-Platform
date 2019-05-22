@@ -8,9 +8,6 @@ import com.rozdoum.socialcomponents.model.FollowingPost;
 import com.rozdoum.socialcomponents.model.Post;
 import com.rozdoum.socialcomponents.utils.LogUtil;
 
-/**
- * Created by Alexey on 22.05.18.
- */
 public class FollowPostViewHolder extends PostViewHolder {
 
 

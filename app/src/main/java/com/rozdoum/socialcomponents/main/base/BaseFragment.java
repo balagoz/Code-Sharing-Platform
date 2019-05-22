@@ -24,10 +24,6 @@ import com.hannesdorfmann.mosby3.mvp.MvpFragment;
 
 import java.util.Objects;
 
-/**
- * Created by Alexey on 08.05.18.
- */
-
 public abstract class BaseFragment<V extends BaseFragmentView, P extends MvpBasePresenter<V>> extends MvpFragment<V, P> implements BaseFragmentView {
 
     public void showProgress() {

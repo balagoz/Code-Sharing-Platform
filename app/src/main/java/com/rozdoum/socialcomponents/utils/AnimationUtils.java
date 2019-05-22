@@ -1,20 +1,3 @@
-/*
- *  Copyright 2017 Rozdoum
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- *
- */
-
 package com.rozdoum.socialcomponents.utils;
 
 import android.view.View;
@@ -28,13 +11,7 @@ public class AnimationUtils {
     public final static int SHORT_DURATION = 200;
     public final static int ALPHA_SHORT_DURATION = 400;
 
-    /**
-     * Reduces the X & Y
-     *
-     * @param v the view to be scaled
-     *
-     * @return the ViewPropertyAnimation to manage the animation
-     */
+
     public static ViewPropertyAnimator hideViewByScale (View v) {
 
         ViewPropertyAnimator propertyAnimator = v.animate().setStartDelay(DEFAULT_DELAY).setDuration(SHORT_DURATION)
@@ -47,13 +24,7 @@ public class AnimationUtils {
         return v.getScaleX() == 0 && v.getScaleY() == 0;
     }
 
-    /**
-     * Shows a view by scaling
-     *
-     * @param v the view to be scaled
-     *
-     * @return the ViewPropertyAnimation to manage the animation
-     */
+
     public static ViewPropertyAnimator showViewByScale (View v) {
 
         ViewPropertyAnimator propertyAnimator = v.animate().setStartDelay(DEFAULT_DELAY)
@@ -62,13 +33,7 @@ public class AnimationUtils {
         return propertyAnimator;
     }
 
-    /**
-     * Shows a view by scaling
-     *
-     * @param v the view to be scaled
-     *
-     * @return the ViewPropertyAnimation to manage the animation
-     */
+
     public static ViewPropertyAnimator showViewByScaleWithoutDelay (View v) {
 
         ViewPropertyAnimator propertyAnimator = v.animate()

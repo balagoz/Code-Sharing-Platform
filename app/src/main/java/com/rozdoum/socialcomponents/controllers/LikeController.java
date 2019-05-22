@@ -38,9 +38,6 @@ import com.rozdoum.socialcomponents.managers.listeners.OnObjectExistListener;
 import com.rozdoum.socialcomponents.managers.listeners.OnPostChangedListener;
 import com.rozdoum.socialcomponents.model.Post;
 
-/**
- * Created by Kristina on 12/30/16.
- */
 
 public class LikeController {
 

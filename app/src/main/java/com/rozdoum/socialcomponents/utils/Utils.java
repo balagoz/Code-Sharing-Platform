@@ -5,7 +5,6 @@ import android.graphics.Point;
 import android.view.Display;
 import android.view.WindowManager;
 
-
 public class Utils {
 
     public static int getDisplayWidth(Context context) {
