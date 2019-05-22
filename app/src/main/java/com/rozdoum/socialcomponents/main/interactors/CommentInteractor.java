@@ -43,6 +43,20 @@ public class CommentInteractor {
     }
 
     public void createComment(String commentText, final String postId, final OnTaskCompleteListener onTaskCompleteListener) {
+
+        // Bad Word Censored
+
+        ArrayList<String> badWords = new ArrayList<>();
+        badWords.add("kötü");
+        badWords.add("kelime");
+        badWords.add("kullanma");
+        for (int i = 0; i < badWords.size(); i++) {
+            String badWord = badWords.get(i);
+            if(commentText.toLowerCase().contains(badWord)){
+                commentText = commentText.replace(badWord, "***");
+            }
+        }
+
         try {
             String authorId = FirebaseAuth.getInstance().getCurrentUser().getUid();
             DatabaseReference mCommentsReference = databaseHelper.getDatabaseReference().child(DatabaseHelper.POST_COMMENTS_DB_KEY + "/" + postId);
@@ -92,6 +106,7 @@ public class CommentInteractor {
     }
 
     public void updateComment(String commentId, String commentText, String postId, final OnTaskCompleteListener onTaskCompleteListener) {
+
         DatabaseReference mCommentReference = databaseHelper.getDatabaseReference().child(DatabaseHelper.POST_COMMENTS_DB_KEY).child(postId).child(commentId).child("text");
         mCommentReference.setValue(commentText).addOnSuccessListener(aVoid -> {
             if (onTaskCompleteListener != null) {
